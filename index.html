@@ -10,11 +10,11 @@
   <body>
     <nav> <!--Dentro tengo mi menú -->
       <h1 class="menu-item text-uppercase">start bootstrap</h1>
-         <div > <!--Aquí tengo lo que son botones que direccionan a partes de la página -->
-           <a class="menu-item text-uppercase change floating" href="#section-2">portafolio</a>
-           <a class="menu-item text-uppercase change floating" href="#section-3">about</a>
-           <a class="menu-item text-uppercase change floating" href="#section-4">contact</a>
-         </div>
+      <div > <!--Aquí tengo lo que son botones que direccionan a partes de la página -->
+         <a class="menu-item text-uppercase change floating" href="#section-2">portafolio</a>
+         <a class="menu-item text-uppercase change floating" href="#section-3">about</a>
+         <a class="menu-item text-uppercase change floating" href="#section-4">contact</a>
+       </div>
     </nav>
     <section>
       <section id="section-1"> <!--Sección 1 de la página "Start Bootstrap" -->
@@ -50,7 +50,6 @@
       </section>
       <section id="section-3"> <!-- Sección 3 "About" con dos columnas -->
             <h1 class="text-uppercase">about</h1>
-
             <section class="star">  <!-- Hice sección del icono estrella con un dos div para hacer la imagen que nos pedían-->
               <div class="line-left-white"> </div>
               <span><i class="fa fa-star fa-2x" aria-hidden="true" style="color:white "></i></span>
@@ -86,7 +85,8 @@
             <hr class="line-contact">
             <input type="numbers" id="number" placeholder="Phone Number"/>  <!--Pide teléfono -->
             <hr class="line-contact">
-            <input type="text" id="msg"placeholder="Message"/> <!-- Pide ingresar mensaje-->
+            <textarea name="message" rows="6" cols="80" placeholder="Message"></textarea> <!-- Pide ingresar mensaje-->
+            <hr class="line-contact">
             <button type="submit">Send</button> <!-- Botón para mandar la información -->
        </form>
       <footer> <!-- Sección de abajo -->

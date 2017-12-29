@@ -66,7 +66,7 @@ nav>div{
   font-weight: 900;
   font-size: 3em;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 100px;
+  margin-top: 80px;
   height: 20px;
 }
 /* Contiene todos los estilos de la sección 3 */
@@ -107,10 +107,10 @@ nav>div{
 /* Contiene todos los estilos de la sección 4 */
 #section-4{
   font-family: 'Montserrat', sans-serif;
+  color: #8D8E96;
   height: 939px;
   background-color: white;
   text-align: center;
-  color: #8D8E96;
 }
 #section-4>h1{
     margin-top: 100px;
@@ -134,6 +134,9 @@ nav>div{
   height: 96px;
   font-size: x-large;
 }
+#section-4>form>input:focus{
+outline:none;
+}
 #section-4>form>button{
   background-color: #18BC9C;
   color: white;
@@ -149,13 +152,10 @@ nav>div{
  text-decoration:none;
  color: white;
  font-weight:bolder;
-
 }
 .change{
   font-size: 100%;
   padding: 15px;
-
-
 }
 .star>div{
   width: 103px;
@@ -196,17 +196,27 @@ nav>div{
   cursor: pointer;
 }
 .small{
-  width: 290px;
-  height: 210px;
-  margin:30px;
+  width: 349px;
+  height: 253px;
+  margin: 20px;
 }
 .text-uppercase{
   text-transform: uppercase;
 }
 .line-contact{
-  background-color: #Fefefe;
+  border: #EBEBEB 1px solid;
   width: 612px;
   height: .1px;
+}
+textarea{
+  border: none;
+  font-size: x-large;
+  font-family: 'Montserrat', sans-serif;
+  color: #8D8E96;
+  font-weight: 600;
+}
+textarea:focus{
+outline: none;
 }
 .social{
   width: 35px;
@@ -216,6 +226,13 @@ nav>div{
   padding: 10px;
   margin: 2px;
   display: inline-block;
+  background-color: inherit;
+  color: white;
+}
+.social:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
 }
 /* Contiene los estilos del footer */
 footer{
